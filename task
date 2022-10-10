@@ -1,0 +1,32 @@
+1. 
+
+var data = new XMLHttpRequest();
+data.open('GET','https://restcountries.com/v3.1/all', true);
+data.send();
+data.onload = function(){
+    var result = JSON.parse(data.response);
+    
+
+    //for loop
+    for(i=0;i<result.length;i++){
+        console.log(result[i].population);
+
+    }
+
+    //for_in loop
+    for(var key in result){
+        console.log(result[key].population);
+    }
+
+    //for_of loop
+    for(var index of result){
+        console.log(index.population);
+    }
+
+    //for each loop
+    result.forEach(element => {
+        console.log(element.population)
+    });
+}
+
+2.
