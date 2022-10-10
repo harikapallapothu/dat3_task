@@ -29,4 +29,76 @@ data.onload = function(){
     });
 }
 
-2.
+2. Resume in JSON
+
+var mydata= {
+    "Basic Details":{
+        'Name':'Pallapothu Harika',
+        'Email': 'harika3412@gmail.com',
+        'phone_number': '9701654789',
+        'location':{
+            'address':'Flat No: 208, Rama Enclave, Hyderabad',
+            'pin_code':'500246',
+            'city':'hyderabad',
+            'state':'Telangana',
+            'country':'india'
+        },
+        'profiles':{
+            'network':'LinkedIn',
+            'user_name':'Pallapothu Harika',
+            'url': 'linkedin.com/in/pallapothu-harika-54ba1113b',
+        },
+        'DOB':'09/08/1996',
+        'languages known': ['Telugu', 'Hindi', 'English']
+    },
+    'career objective':'To work in an environment which will enhance my knowledge and career, to strive for excellence, where I can perform my management skills according to my strong caliber and efficiency.',
+    'Professional Experience':{
+        'Work1':{
+            'Designation':'Assistant Professor',
+            'Institution':'JNTUH',
+            'Department':'Mechanical Engineering'
+        },
+        'Work2':{
+            'Designation': 'Translator',
+            'Institute' : 'NPTEL',
+            'Department':'Mechanical Engineering'
+        }
+    },
+    'Educational Details':{
+        'PH.D':{
+            'Institute':'Osmania University',
+            'Research Area':'Additive Manufacturing',
+            'Department':'Mechanical Engineering'
+        },
+        'Master of Engineering':{
+            'Institute':'Osmania University',
+            'Specialization':'Production Engineering',
+            'Department':'Mechanical Engineering',
+            'CGPA':'9.45/10'
+        },
+        'Bachelor of Technology':{
+            'Institute':'JNTUH',
+            'Department':'Mechanical Engineering',
+            'Percentage':'81.79%'
+        }
+    },
+    'Additional Qualifications':{
+        'Publications':['Micro Drilling of GFRP','Review on Micro Drilling'],
+        'Ourses Attended':['SFRF- 2020 at IIT Delhi'],
+    },
+    'Technical Details':{
+        'Operating Systems':'Windows',
+        'Programming Languages':['C', 'Java Script', 'HTML'],
+        'Packages':['MS Office','ANSYS','AUTO CAD','ABACUS CAE']
+    },
+    'Projects Handled':[
+        'Additive Manufacturing of Nozzle Thrusters for CUBESAT',
+        'Study on Micro Drilling of GFRP Composites',
+        'Hygroscopic Analysis of GFRP Composites',
+        'Study on Boiler Maintenance'
+    ]
+        
+
+}
+console.log(mydata);
+
